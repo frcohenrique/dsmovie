@@ -15,10 +15,11 @@ public class User {
 	private Long id;
 	private String email;
 	
-	private User() {
+	public User() {
 		
 	}
-	private User(Long id, String email) {
+	
+	public User(Long id, String email) {
 		this.id = id;
 		this.email = email;
 	}
